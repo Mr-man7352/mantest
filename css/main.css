@@ -1,0 +1,9 @@
+body{
+    background: url(../assets/choti.jpeg);
+    /* background-size: cover; */
+}
+
+.text{
+    text-align: center;
+    margin-top: 25%;
+}
