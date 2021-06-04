@@ -105,7 +105,8 @@ flex-direction: column;
 @media (max-width:550px){
 
     .section1 .heading {
-        left: 10px;
+        left: 37px;
+        top: 453px;
     }
 
     .section1 .heading h1{
