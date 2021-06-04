@@ -37,7 +37,7 @@
     display: inline;
     position: absolute;
     right: 15px;
-    top: 130px;
+    top: 270px;
     color: white;
     text-shadow: #000 1px 0 10px;
 }
@@ -52,7 +52,7 @@
 }
 
 .section2{
-    height: 300px;
+    height: 328px;
     margin-top: 10px;
 }
 
@@ -73,8 +73,28 @@
 }
 
 .section2 p{
-    flex: 0.6;
+    flex: 0.6 1 0%;
     margin: auto;
+    font-size: 17px;
+    font-weight: 500;
     padding-right: 128px;
 }
 
+@media (max-width:999px){
+    .section2Content{
+flex-direction: column;
+    }
+
+    .section2 p{
+        margin:16px 162px;
+        padding: 0;
+       
+    }
+}
+
+@media (max-width:750px){
+    .section1 .heading {
+        top: 200px;
+    }
+
+}
