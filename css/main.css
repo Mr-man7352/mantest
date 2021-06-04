@@ -52,7 +52,7 @@
 }
 
 .section2{
-    height: 328px;
+    height: 370px;
     margin-top: 10px;
 }
 
@@ -97,4 +97,34 @@ flex-direction: column;
         top: 200px;
     }
 
+    .section2 p {
+        margin: 16px 118px;
+        padding: 0;
+}
+}
+@media (max-width:550px){
+
+    .section1 .heading {
+        left: 10px;
+    }
+
+    .section1 .heading h1{
+font-size: 25px;
+    }
+    .section1 .heading p{
+        font-size: 20px;
+        
+    }
+    
+    .section2 p{
+        margin: 16px 70px;
+    }
+
+  
+}
+
+@media (max-width:480px){
+    .section2 p{
+        margin: 16px 30px;
+    }
 }
