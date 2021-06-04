@@ -1,10 +1,80 @@
-body{
-    background: url(../assets/choti.jpeg);
-    /* background-size: cover; */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+
+* {
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #e4e4e4;
+  }
+
+
+.mainSection {
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.text{
-    text-align: center;
-    margin-top: 25%;
-    text-shadow: #FC0 1px 0 10px;;
+.section1{
+    height: 90vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2) url(../assets/spider.jpg);
+    background-size: cover; 
+    background-blend-mode: darken;
+    /* clip-path: polygon(0 0, 100% 0%, 100% 82%, 75% 100%, 0 76%); */
+    clip-path: polygon(0px 0px, 100% 0%, 100% 82%, 80.54% 99.13%, 0px 80.65%);
+
 }
+
+.section1 .heading{
+    display: inline;
+    position: absolute;
+    right: 15px;
+    top: 130px;
+    color: white;
+    text-shadow: #000 1px 0 10px;
+}
+
+.section1 .heading h1{
+    margin-bottom: 0;
+}
+.section1 .heading p{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.section2{
+    height: 300px;
+    margin-top: 10px;
+}
+
+.section2 .section2Content {
+    display: flex;
+}
+
+.section2img{
+    flex: 0.4;
+    text-align: center;
+}
+
+.section2 img{
+    text-align: center;
+    height: 227px;
+    width: 320px;
+    border-radius: 71px;
+}
+
+.section2 p{
+    flex: 0.6;
+    margin: auto;
+    padding-right: 128px;
+}
+
